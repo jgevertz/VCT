@@ -77,7 +77,7 @@ xlabel('Time (days)','FontSize',16)
 ylabel('Tumor Volume (mm^3)','FontSize',16)
 title('Accept-or-Reject Vpops within 3 STD of Mean','FontSize',16)
 
-%save Vpops.mat curve1_Nstd curve2_Nstd r_norm beta_norm U0_norm Vpop_AccRej Traj_AccRej
+save Vpops.mat curve1_Nstd curve2_Nstd r_norm beta_norm U0_norm Vpop_AccRej Traj_AccRej
     
 
 %%% Functions %%%
